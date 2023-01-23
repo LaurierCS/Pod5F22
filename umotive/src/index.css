@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  font-family:"Quicksand";
+  color: #333;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width:1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1{
+  color: #090809;
+}
+.navbar .links{
+  margin-left: auto;
+}
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+
+}
+
+.navbar a:hover{
+  color :#f2d6de;
+}
+
+.navbar img{
+  margin:auto;
+  float: down;
+  display: inline-flex;
+}
+.menu-trigger img{
+  position: absolute;
+  top:20px;
+  right:90px;
+  height:60px;
+  width:60px;
+  border-radius:50%;
+  overflow:hidden;
+  cursor:pointer;
+}
+.dropdown-menu{
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  background-color: #000000;
+  border-radius: var(--border-radius);
+  padding:10px 20px;
+  width:120px;
+
+}
+
+.dropdown-menu::before{
+  content:'';
+  position: absolute;
+  top:-5px;
+  right:20px;
+  height:20px;
+  width:20px;
+  background: var(--secondary-bg);
+  transform: rotate(45deg);
+}
+.dropdown-menu.active{
+  opacity:1;
+  visibility: visible;
+  transform:translateY(0);
+  transition: var(--speed) ease;
+}
+.dropdown-menu ul li{
+  padding:10px 0;
+  border-top: 1px solid rgba(249, 247, 247, 0.5);
+}
+.dropdownmen ul li:hover img{
+  opacity:1;
+  cursor:pointer;
+}
+.dropdownItem{
+  display:flex;
+  margin:10px auto;
+}
+.dropdownItem img{
+  max-width:20px;
+  margin-right:0px;
+  opacity: 1;
+  transition: var(--speed);
+}
+.dropdownItem a{
+  max-width:100px;
+  margin-left:20px;
+  transition:var(--speed);
+}
+.home .hotspot{
+  border: 5px solid black;
+  margin:30px;
+  object-fit: fill;
+}
+.dropdown-menu.active{
+  opacity:1;
+  visibility: visible;
+  transform:translateY(0);
+  transition:var(--speed) ease;
+}
+.dropdown-menu.inactive{
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.home .promos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:50px;
+  grid-row-gap:50px;
+  padding:5px;
+  margin-left:60px;
+
+}
+.home .promos .promos-items{
+  border: 5px solid black;
+  padding:0px;
+  width:250px;
+  bottom: width 100px;;
+  text-align: center;
+
+}
+.messageboard .spot{
+  border: 5px solid black;
+  margin:30px;
+  object-fit: fill;
+}
+
+.messageboard .comment {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.messageboard .comment label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}.messageboard .comment input, .messageboard .comment textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.messageboard .comment button {
+  background: #333;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* General styles for the message board */
+.messageboard {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Styles for the hotspot image */
+.hotspot {
+  text-align: center;
+}
+
+/* Styles for the comment section */
+.comment {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Styles for the comments list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #ccc;
+  font-size: 18px;
+  color:#333;
+  font-weight: bold;
+}
+.landing{
+  background-image: url('signimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing {
+    background-image: url('C:\Users\danie\Documents\Pods\umotive\src\signimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
