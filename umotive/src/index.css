@@ -233,13 +233,9 @@ li {
   color:#333;
   font-weight: bold;
 }
-.landing{
-  background-image: url('signimg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .landing {
-    background-image: url('C:\Users\danie\Documents\Pods\umotive\src\signimg.png');
+    background-image: url("./signimg.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
