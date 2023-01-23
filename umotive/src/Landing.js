@@ -4,7 +4,6 @@ import './index.css';
 const Landing = () => {
     return (  
         <div className="landing">
-            {/* other content */}
         </div>
     );
 }
