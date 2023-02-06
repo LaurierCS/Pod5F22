@@ -1,10 +1,10 @@
-import phils from "../src/phils.png" ;
-import drink from "../src/drink.png";
-import pub from "../src/pub.png";
-import revive from "../src/revive.png";
-import kentucky from "../src/kentucky.png";
-import allure from "../src/allure.png";
-import ethels from "../src/ethels.png";
+import phils from "../src/images/phils.png" ;
+import drink from "../src/images/drink.png";
+import pub from "../src/images/pub.png";
+import revive from "../src/images/revive.png";
+import kentucky from "../src/images/kentucky.png";
+import allure from "../src/images/allure.png";
+import ethels from "../src/images/ethels.png";
 
 
 

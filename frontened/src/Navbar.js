@@ -1,8 +1,8 @@
-import pf from "../src/profilepic.png" ;
+import pf from "../src/images/profilepic.png" ;
 import {useState,useRef} from 'react';
-import user from "../src/user.png";
-import edit from "../src/edit.png";
-import exit from "../src/exit.png";
+import user from "../src/images/user.png";
+import edit from "../src/images/edit.png";
+import exit from "../src/images/exit.png";
 
 const Navbar = () => {
     const [open,setOpen] = useState(false);

@@ -1,4 +1,4 @@
-import drink from "../src/drink.png";
+import drink from "../src/images/drink.png";
 import {useState} from 'react';
 
 

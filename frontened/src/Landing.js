@@ -1,4 +1,4 @@
-import land from '../src/signimg.png';
+import land from '../src/images/signimg.png';
 import './index.css';
 
 const Landing = () => {

@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import MessageBoard from './MessageBoard';
-import LoginPage from './LoginPage';
+//mport LoginPage from './LoginPage';
 import Landing from './Landing';
 
 
@@ -19,9 +19,6 @@ function App() {
           </Route>
           <Route path="/messageboard">
             <MessageBoard></MessageBoard>
-          </Route>
-          <Route path="/loginpage">
-            <LoginPage/>
           </Route>
           <Route>
             <Landing/>

@@ -235,7 +235,7 @@ li {
 }
 
 .landing {
-    background-image: url("./signimg.png");
+    background-image: url("../src/images/signimg.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
